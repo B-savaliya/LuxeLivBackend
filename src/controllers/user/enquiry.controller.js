@@ -38,14 +38,14 @@ export default {
                         <div class="header">
                             <h1>Welcome to Classic Motel</h1>
                         </div>
-                        <div class="content">
+                        <div class="content" style="color: #53624e;">
                             <p>Dear ${name},</p>
                             <p>Thank you for your inquiry. We're delighted to welcome you to Classic Motel!</p>
                             <p>We have received your message and our team will get back to you as soon as possible.</p>
                             <p>Here's a summary of your inquiry:</p>
                             <ul>
-                                <li><strong>Subject:</strong> ${subject}</li>
-                                <li><strong>Message:</strong> ${message}</li>
+                                <li style="color: #f4f4f4;"><strong>Subject:</strong> ${subject}</li>
+                                <li style="color: #f4f4f4;"><strong>Message:</strong> ${message}</li>
                             </ul>
                             <p>If you have any additional questions or concerns, please don't hesitate to contact us.</p>
                             <p>We look forward to serving you and ensuring your stay at Classic Motel is nothing short of exceptional.</p>
