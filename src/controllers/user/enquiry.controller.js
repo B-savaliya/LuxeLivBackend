@@ -16,9 +16,6 @@ export default {
         const { name, email, subject, message } = req.body;
 
         const findEmail = await Enquiry.findOne({ email });
-        if (findEmail) {
-            return res.status(400).json({ message: "Email already exists" });
-        }
         const enquiry = await Enquiry.create({ name, email, subject, message });
     
         // Send welcome email
