@@ -27,7 +27,7 @@ export default {
                         .container { max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
                         .header { background-color: #b99d75; padding: 20px; text-align: center; }
                         .header h1 { color: #ffffff; margin: 0; }
-                        .content { padding: 30px; background-color: #53624e; }
+                        .content { padding: 30px; color: #53624e; }
                         .footer { background-color: #b99d75; color: #ffffff; text-align: center; padding: 10px; font-size: 14px; }
                         ul { padding-left: 20px; }
                         .btn { display: inline-block; background-color: #b99d75; color: #ffffff; text-decoration: none; padding: 10px 20px; border-radius: 5px; margin-top: 20px; }
