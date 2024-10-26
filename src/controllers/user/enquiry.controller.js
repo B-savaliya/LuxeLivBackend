@@ -38,7 +38,7 @@ export default {
                         <div class="header" style="border: 1px solid #fff; border-radius: 8px 8px 0 0;">
                             <h1>Welcome to Classic Motel</h1>
                         </div>
-                        <div class="content" style=" border-x: 1px solid #fff; ">
+                        <div class="content" style=" border-left: 1px solid #fff; border-right: 1px solid #fff; ">
                             <p style="color: #53624e;">Dear ${name},</p>
                             <p style="color: #53624e;">Thank you for your inquiry. We're delighted to welcome you to Classic Motel!</p>
                             <p style="color: #53624e;">We have received your message and our team will get back to you as soon as possible.</p>
