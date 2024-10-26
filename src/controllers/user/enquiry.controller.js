@@ -25,7 +25,7 @@ export default {
                     <style>
                         body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; margin: 0; padding: 0; }
                         .container { max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
-                        .header { background-color: #53624e; padding: 20px; text-align: center; }
+                        .header { background-color: #b99d75; padding: 20px; text-align: center; }
                         .header h1 { color: #ffffff; margin: 0; }
                         .content { padding: 30px; }
                         .footer { background-color: #b99d75; color: #ffffff; text-align: center; padding: 10px; font-size: 14px; }
