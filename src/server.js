@@ -1,10 +1,14 @@
 import express from "express";
+import cors from "cors";
 import connectDB, { PORT } from "./config/db.config.js";
 import userRouter from "./routes/user.routes.js";
 
 const app = express();
 
 connectDB();
+
+// Add CORS middleware
+app.use(cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
