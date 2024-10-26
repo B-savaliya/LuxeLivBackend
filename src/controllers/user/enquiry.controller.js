@@ -38,17 +38,17 @@ export default {
                         <div class="header" style="border: 1px solid #fff; border-radius: 8px 8px 0 0;">
                             <h1>Welcome to Classic Motel</h1>
                         </div>
-                        <div class="content" style="color: #53624e; border-x: 1px solid #fff; ">
-                            <p>Dear ${name},</p>
-                            <p>Thank you for your inquiry. We're delighted to welcome you to Classic Motel!</p>
-                            <p>We have received your message and our team will get back to you as soon as possible.</p>
-                            <p>Here's a summary of your inquiry:</p>
+                        <div class="content" style=" border-x: 1px solid #fff; ">
+                            <p style="color: #53624e;">Dear ${name},</p>
+                            <p style="color: #53624e;">Thank you for your inquiry. We're delighted to welcome you to Classic Motel!</p>
+                            <p style="color: #53624e;">We have received your message and our team will get back to you as soon as possible.</p>
+                            <p style="color: #53624e;">Here's a summary of your inquiry:</p>
                             <ul>
                                 <li style="color: #f4f4f4;"><strong>Subject:</strong> ${subject}</li>
                                 <li style="color: #f4f4f4;"><strong>Message:</strong> ${message}</li>
                             </ul>
-                            <p>If you have any additional questions or concerns, please don't hesitate to contact us.</p>
-                            <p>We look forward to serving you and ensuring your stay at Classic Motel is nothing short of exceptional.</p>
+                            <p style="color: #53624e;">If you have any additional questions or concerns, please don't hesitate to contact us.</p>
+                            <p style="color: #53624e;">We look forward to serving you and ensuring your stay at Classic Motel is nothing short of exceptional.</p>
                             <a href="https://classicmotel.com" class="btn">Visit Our Website</a>
                         </div>
                         <div class="footer" style="border: 1px solid #fff; border-radius: 0 0 8px 8px;">
