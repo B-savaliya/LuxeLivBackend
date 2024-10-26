@@ -35,7 +35,7 @@ export default {
                 </head>
                 <body>
                     <div class="container">
-                        <div class="header" style="border: 1px solid #fff; border-bottom: none;">
+                        <div class="header" style="border: 1px solid #fff; border-radius: 8px 8px 0 0;">
                             <h1>Welcome to Classic Motel</h1>
                         </div>
                         <div class="content" style="color: #53624e; border-x: 1px solid #fff; ">
@@ -51,7 +51,7 @@ export default {
                             <p>We look forward to serving you and ensuring your stay at Classic Motel is nothing short of exceptional.</p>
                             <a href="https://classicmotel.com" class="btn">Visit Our Website</a>
                         </div>
-                        <div class="footer" style="border: 1px solid #fff; border-top: none;">
+                        <div class="footer" style="border: 1px solid #fff; border-radius: 0 0 8px 8px;">
                             <p>Best regards,<br>The Classic Motel Team</p>
                         </div>
                     </div>
