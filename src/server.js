@@ -11,6 +11,12 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/user", userRouter);
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// For Vercel, we'll export the app instead of calling app.listen
+export default app;
+
+// Keep this for local development
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
