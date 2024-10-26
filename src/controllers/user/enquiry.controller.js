@@ -21,7 +21,7 @@ export default {
             const emailSubject = "Welcome to Classic Motel";
             const emailBody = `
             <html>
-                <body style="font-family: 'Acme', Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; background-image: url('https://example.com/path-to-your-image.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <body style="font-family: 'Acme', Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; background-image: url('../../assets/img1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                     <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: rgba(255, 255, 255, 0.9);">
                         <h1 style="color: #53624e;">Welcome to Classic Motel</h1>
                         <p>Dear ${name},</p>
